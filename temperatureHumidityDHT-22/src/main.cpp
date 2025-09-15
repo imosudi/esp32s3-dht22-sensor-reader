@@ -8,7 +8,7 @@ volatile bool capture_done = false;
 
 constexpr int edge_limit = 90;
 
-volatile uint32_t edges[edge_limit];  // store up to 90 edges (enough for 40 bits + start)
+volatile uint32_t edges[edge_limit];  // store up to the maximu number of edge_limit edges (enough for 40 bits + start)
 volatile uint8_t edge_count = 0;
 int captureCount = 1;
 
